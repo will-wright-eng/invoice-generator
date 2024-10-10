@@ -1,0 +1,13 @@
+/invoice-generator
+    /src
+        /static
+            styles.css
+            script.js
+        index.html
+        config.json
+    /nginx
+        nginx.conf
+    docker-compose.yml
+    Dockerfile
+    README.md
+    .gitignore

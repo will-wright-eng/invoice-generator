@@ -1,0 +1,36 @@
+{
+  "businessName": "TechPro Services",
+  "businessAddress": {
+    "name": "TechPro Services",
+    "street": "123 Tech Lane",
+    "city": "Silicon Valley",
+    "state": "CA",
+    "zip": "94000",
+    "country": "United States",
+    "phone": "+1 555-123-4567",
+    "email": "info@techproservices.com"
+  },
+  "bankDetails": {
+    "bankName": "TechBank USA",
+    "accountName": "TechPro Services",
+    "accountNumber": "1234567890",
+    "routingNumber": "987654321"
+  },
+  "clientName": "Awesome Tech Company",
+  "clientAddress": {
+    "street": "456 Innovation Road",
+    "city": "San Francisco",
+    "state": "CA",
+    "zip": "94101",
+    "country": "United States",
+    "phone": "+1 555-123-4567",
+    "email": "info@awesome-tech.com"
+  },
+  "invoiceNumber": "INV-0001",
+  "issueDate": "2024-10-06",
+  "dueDate": "2024-10-16",
+  "workPeriod": {
+    "startDate": "2024-09-06",
+    "endDate": "2024-10-06"
+  }
+}

@@ -1,0 +1,8 @@
+# Ignore configuration file with sensitive information
+src/config.json
+
+# Other common ignores
+node_modules/
+*.log
+.DS_Store
+*.pdf

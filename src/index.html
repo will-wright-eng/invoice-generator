@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will Wright Engineering</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+</head>
+<body>
+    <div class="invoice" id="invoice">
+        <div class="header">
+            <div class="logo" id="businessName"></div>
+            <div class="invoice-details">
+                <h2>Invoice</h2>
+                <p><strong>Invoice #:</strong> <span id="invoiceNumber"></span></p>
+                <p><strong>Issue Date:</strong> <span id="issueDate"></span></p>
+                <p><strong>Due Date:</strong> <span id="dueDate"></span></p>
+            </div>
+        </div>
+        <div class="addresses">
+            <div class="address">
+                <h3>From:</h3>
+                <p id="businessAddress"></p>
+            </div>
+            <div class="address">
+                <h3>Bill To:</h3>
+                <p id="clientAddress"></p>
+            </div>
+        </div>
+        <table class="item-list">
+            <thead>
+                <tr>
+                    <th>Description</th>
+                    <th>Quantity</th>
+                    <th>Rate</th>
+                    <th>Amount</th>
+                </tr>
+            </thead>
+            <tbody id="itemList">
+                <!-- Items will be added here dynamically -->
+            </tbody>
+        </table>
+        <div class="total">
+            <p><strong>Total: $<span id="invoiceTotal">0.00</span></strong></p>
+        </div>
+        <div class="bank-details" id="bankDetails">
+            <h3>Bank Details</h3>
+            <!-- Bank details will be added here dynamically -->
+        </div>
+    </div>
+    <button id="exportButton">Export to PDF</button>
+    <script src="/static/script.js"></script>
+</body>
+</html>
+
